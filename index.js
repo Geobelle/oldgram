@@ -76,6 +76,6 @@ for (let i = 0; i < posts.length; i++) {
     let post = document.getElementById(details.post)
     post.addEventListener("dblclick", like)
 
-   let lover = document.getElementsByClassName("lover")[i]
-   lover.addEventListener("click", like) 
+    let lover = document.getElementsByClassName("lover")[i]
+    lover.addEventListener("click", like) 
 }
