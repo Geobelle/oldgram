@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: source_sans_pro;
+    src: url(source-sans-pro/SourceSansPro-Regular.ttf),
+    url(source-sans-pro/SourceSansPro-Bold.ttf);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: source_sans_pro;
+    background-color: rgb(73, 73, 73);
+}
+
+/* typography */
+h2{
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px;
+}
+p{
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+
+/* header section */
+header{
+    width: 345px;
+    height: 67px;
+    margin: 20px auto 0px auto;
+    border-bottom: 1px solid #c6c6c6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0px 15px;
+}
+.logo {
+    width: 127px;
+    height: 40px;
+}
+.user-avatar, .avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+/* new post section */
+section{
+    width: 375px;
+    height: fit-content;
+    background-color: #ffffff;
+    margin: 0px auto; 
+    padding-bottom: 10px;
+}
+/* top of new post, containing location, name and avatar */
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 10px;
+    margin: auto 10px;
+}
+.name-location{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 10px;
+}
+/* post */
+.post{
+    width: 375px;
+    height: 375px;
+}
+/* everything icons */
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 10px;
+    margin: 20px 10px 10px;
+}
+.icon{
+    width: 23px;
+    height: 23px;
+}
+.icon:hover{
+    width: 26px;
+    height: 26px;
+}
+.love{
+    fill: red;
+    stroke: red;
+}
+/* user name, likes and comment */
+.username{
+    font-weight: bold;
+    margin-right: 3px;
+}
+.like{
+    margin-bottom: 12px;
+}
+.likecommment{
+    margin: 0px 10px 20px;
+}
